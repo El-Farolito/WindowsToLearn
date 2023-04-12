@@ -10,7 +10,7 @@ const inicio = document.querySelector(".Wlogo")
 
 inicio.addEventListener("click", function(){
        
-    desplegable.classList.toggle("desplegable-indexOn");
+    desplegable.style.display = "block"
        
 })
 desplegable.addEventListener("mouseover", function(){
