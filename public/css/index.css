@@ -9,9 +9,9 @@
 }
 
 .header-index{
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 60px;
+    height: 8vh;
     background-color: #3377ffa1;
     bottom: 0px;
     display: flex;
@@ -20,7 +20,7 @@
 }
 
 .Wlogo{
-    height: 90%;
+    height: 85%;
     margin: auto 0;
     width: 4%;
     margin-left: 1%;
@@ -38,9 +38,9 @@
 .desplegable-index{
     width: 300px;
     height: 400px;
-    background-color:  #3377ff63;
+    background-color:  #3377ff88;
     position: absolute;
-    bottom: 60px;
+    bottom: 8vh;
     display: none;
 }
 .desplegable-indexOn{
@@ -52,19 +52,35 @@
     display: block;
 }
 .apps-desplegable-index{
-    width: 70%;
+    width: 50%;
     background-color: rgba(255, 0, 0, 0)   ;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
+    text-align: center;
 }
-.div-js-desplegable {
+.div-img-desplegable {
 width: 100%;
 height: 15%;
 margin: 2% 0;
 }
-.div-js-desplegable img{
+.div-img-desplegable a svg{
 width: 50%;
 height: 100%;
+}
+.div-img-desplegable a p{
+width: 50%;
+height: 100%;
+margin: auto;
+font-size: x-large;
+}
+
+
+.on{
+    display: block;
+}
+.off{
+    display: none;
 }

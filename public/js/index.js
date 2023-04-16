@@ -1,23 +1,27 @@
 addEventListener("load", function(){
 
 const desplegable = document.querySelector(".desplegable-index")
-const inicio = document.querySelector(".Wlogo")
+const inicio = document.querySelector("#inicio")
+const img = document.querySelector(".img-inicio")
 
-
+let contador = 0
 
 
 
 
 inicio.addEventListener("click", function(){
        
+desplegable.style.display = "block"
+       
+})
+
+desplegable.addEventListener("mousemove", function(){
+       
     desplegable.style.display = "block"
-       
+
 })
-desplegable.addEventListener("mouseover", function(){
-       
-            desplegable.style.display = "block"
-       
-})
+
+
 desplegable.addEventListener("mouseout", function(){
        
             desplegable.style.display = "none"
