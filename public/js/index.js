@@ -3,8 +3,8 @@ addEventListener("load", function(){
 const desplegable = document.querySelector(".desplegable-index")
 const inicio = document.querySelector("#inicio")
 const img = document.querySelector(".img-inicio")
+const ds = document.querySelector(".div-proyecto1")
 
-let contador = 0
 
 
 
@@ -29,23 +29,14 @@ desplegable.addEventListener("mouseout", function(){
 })
 
 
-// inicio.addEventListener("click", function(){
 
-
-//     if(desplegable.style.display = "block"){
-//         desplegable.style.display = "none"
-//     }
-// })
-// inicio.addEventListener("mouseup", function(){
-//     desplegable.style.display = "none"
-// })
-
-
+ds.addEventListener("dblclick", function(){
+    window.location = "/DigitalStore"
+})
 
 
 })
 
 
 
-// JavaScript code
 

@@ -13,8 +13,8 @@ app.get("/", (req,res)=>{
    res.sendFile(path.join(__dirname, "/public/html/index.html"))
 
 })
-app.get("/html5", (req,res)=>{
-res.sendFile(path.join(__dirname, "/public/html/html5.html"))
+app.get("/DigitalStore", (req,res)=>{
+res.sendFile(path.join(__dirname, "/public/html/DigitalStore.html"))
 })
 app.get("/css3", (req,res)=>{
 res.sendFile(path.join(__dirname, "/public/html/css3.html"))

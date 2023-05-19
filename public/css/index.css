@@ -38,7 +38,7 @@
 .desplegable-index{
     width: 300px;
     height: 400px;
-    background-color:  #3377ff88;
+    background-color:  #3377ffe0;
     position: absolute;
     bottom: 8vh;
     display: none;
@@ -46,7 +46,7 @@
 .desplegable-indexOn{
     width: 300px;
     height: 400px;
-    background-color:  #3377ff63;
+    background-color:  #3377ffa9;
     position: absolute;
     bottom: 60px;
     display: block;
@@ -83,4 +83,14 @@ font-size: x-large;
 }
 .off{
     display: none;
+}
+.div-proyecto1{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.div-proyecto1 img{
+    width: 100%;
+    height: 100%;
 }
