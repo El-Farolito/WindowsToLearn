@@ -2,7 +2,6 @@ addEventListener("load", function(){
 
 const desplegable = document.querySelector(".desplegable-index")
 const inicio = document.querySelector("#inicio")
-const img = document.querySelector(".img-inicio")
 const ds = document.querySelector(".div-proyecto1")
 
 

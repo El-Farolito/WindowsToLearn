@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .body-index{
     background-image: url("../img/imgg.png");
@@ -67,6 +68,10 @@ height: 15%;
 margin: 2% 0;
 }
 .div-img-desplegable a svg{
+width: 50%;
+height: 100%;
+}
+.div-img-desplegable a img{
 width: 50%;
 height: 100%;
 }
